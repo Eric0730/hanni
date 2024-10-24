@@ -1,11 +1,15 @@
 {
-  "name": "package.json",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "your-project-name",
+  "version": "0.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    // 您的依赖项
+  },
+  "devDependencies": {
+    // 开发依赖项
+  }
 }
